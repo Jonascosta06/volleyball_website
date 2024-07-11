@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #091739;
+}
+
+header {
+  width: 100%;
+  padding: 28px 8%;
+}
+#navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#logo_ball {
+  font-size: 24px;
+  color: #d1b21c;
+}
+#nav_list {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+
+.nav_item a {
+  text-decoration: none;
+  color: #ffff;
+  font-weight: 600px;
+}
+.nav_item.active a {
+  color: #dbdbdb;
+  border-bottom: 3px solid #d1b21c;
+}
+#btn {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn_sign_up {
+  background-color: #d1b21c;
+  width: 150px;
+  height: 60px;
+  border-radius: 20px;
+  font-weight: 750;
+  padding: 5px 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-size: 15px;
+}
+.btn_sign_up:hover {
+  background-color: #f1a009;
+}
+#logo4x4 {
+  padding: 50px 50px;
+  width: 500px;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+  height: 370px;
+  font-size: 300px;
+  align-items: center;
+}
+#logo4x4 img {
+  border-radius: 100%;
+  height: 350px;
+  border: 1px solid white;
+}
+#date {
+  padding: 50px 50px;
+  width: 500px;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+  height: 10px;
+  font-size: 20px;
+  align-items: center;
+  color: #dbdbdb;
+  border: none;
+}
+#title {
+  padding: 10px 20px;
+  width: 100vw;
+  height: 200px;
+  text-align: center;
+  margin: auto;
+  font-size: 45px;
+  align-items: center;
+  color: #dbdbdb;
+  align-items: center;
+}
+
+#title h1 {
+  font-weight: 800;
+}
+#title h6 {
+  font-weight: 200;
+}
